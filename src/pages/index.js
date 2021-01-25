@@ -5,7 +5,7 @@ import { graphql, useStaticQuery } from 'gatsby';
 import Layout from '../components/Layout';
 
 import styles from './index.module.css';
-
+//
 export default function IndexPage() {
   const data = useStaticQuery(graphql`
   {
